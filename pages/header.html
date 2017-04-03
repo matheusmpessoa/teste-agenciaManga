@@ -20,6 +20,12 @@
     </div>
 </nav>
 <script>
+    /* activate scrollspy menu */
+    $('body').scrollspy({
+        target: '#navbar-collapsible',
+        offset: 52
+    });
+
     $('.navbar-collapse a').click(function() {
         $(".navbar-collapse").collapse('hide');
     });

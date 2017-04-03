@@ -1,12 +1,9 @@
-@import url(http://fonts.googleapis.com/css?family=Lato:300,400);
-@import url(http://fonts.googleapis.com/css?family=Bitter:400);
-
 html,
 body {
     height: 100%;
     background-size: cover;
     color: #444;
-    font-family: 'Lato', 'Bitter', sans-serif;
+    font-family: Arial;
 }
 
 @media (min-width:768px) {
@@ -59,6 +56,7 @@ a.text-danger {
 .navbar-trans li.active {
     background-color: #4ead95;
     color: #333;
+    border-radius: 10px;
 }
 
 .navbar-trans li>a:hover {
@@ -101,12 +99,45 @@ section {
         bottom: 0;
         right: 0;
     }
+
 }
 
 /* Home */
 #home {
     background-color: #82afac;
     color: #f9ffff;
+    padding-bottom: 0px;
+}
+
+#home h2 {
+    padding: 80px 0px 0px 0px;
+}
+
+#home p {
+    padding: 20px 0px 0px 0px;
+}
+
+#home .btn-compreAgora {
+	-moz-box-shadow: 1px 10px 0px 0px #b64a1b;
+	-webkit-box-shadow: 1px 10px 0px 0px #b64a1b;
+	box-shadow: 1px 10px 0px 0px #b64a1b;
+	background-color: #d25400;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	display: inline-block;
+	color: #ffffff;
+	font-size: 17px;
+	padding: 17px 40px;
+	text-decoration: none;
+    margin: 20px 80px 80px 120px;
+}
+#home .btn-compreAgora:hover {
+	background-color:#e85d00;
+}
+
+#home .iphone {
+    padding: 80px 40px 0px 80px;
 }
 
 /* Sobre */
@@ -139,10 +170,6 @@ footer .nav>li>a:hover {
 }
 
 /* Alterações gerais */
-.sublinhar {
-    text-decoration: underline;
-}
-
 .alinhar-esq {
     float: left;
 }
