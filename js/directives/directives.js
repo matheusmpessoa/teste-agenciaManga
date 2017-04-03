@@ -5,7 +5,7 @@ app.directive("myHeader", function () {
     return {
         restrict: "E",
         transclude: true,
-        templateUrl: "pages/template/header.html"
+        templateUrl: "pages/header.html"
     };
 });
 
@@ -23,6 +23,6 @@ app.directive("myFooter", function () {
     return {
         restrict: "E",
         transclude: true,
-        templateUrl: "pages/template/footer.html"
+        templateUrl: "pages/footer.html"
     };
 });
