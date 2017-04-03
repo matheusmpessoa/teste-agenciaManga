@@ -27,10 +27,6 @@ a:hover {
     border-radius: 0;
 }
 
-.btn-danger {
-    background-color: #4ead95;
-}
-
 .text-danger,
 a.text-danger {
     color: #4ead95;
@@ -163,11 +159,47 @@ section {
     text-align: center;
 }
 
+#sobre .btn-compreAgora {
+	-moz-box-shadow: 1px 10px 0px 0px #b64a1b;
+	-webkit-box-shadow: 1px 10px 0px 0px #b64a1b;
+	box-shadow: 1px 10px 0px 0px #b64a1b;
+	background-color: #d25400;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	display: inline-block;
+	color: #ffffff;
+	font-size: 17px;
+	padding: 17px 40px;
+	text-decoration: none;
+}
+#sobre .btn-compreAgora:hover {
+	background-color:#e85d00;
+}
+
 /* Trabalhos */
 #trabalhos {
     background-color: #d0cca7;
     color: #fffdff;
 }
+
+#trabalhos span {
+    font-weight: bolder;
+    color: #fff;
+}
+
+#trabalhos .descricao {
+    padding: 70px;
+}
+
+#trabalhos img {
+    padding: 0px 0px 30px 0px;
+}
+
+#trabalhos p {
+    text-align: center;
+}
+
 
 /* Contato */
 footer {
