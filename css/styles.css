@@ -207,15 +207,13 @@ footer {
     color: #33363d;
     min-height: 100px;
     padding-top: 20px;
-    padding-bottom: 40px;
+    padding-bottom: 80px;
+    font-weight: 300;
 }
 
-footer .nav>li>a {
-    padding: 3px;
-}
-
-footer .nav>li>a:hover {
-    color: #fff;
+footer .logosFooter {
+    margin: 0px 0px 20px 70px;
+    align-content: center;
 }
 
 /* Alterações gerais */

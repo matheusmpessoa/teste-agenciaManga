@@ -16,6 +16,9 @@ Desenvolver a página utilizando as tecnologias HTML5 e CSS3 com base no Layout 
 
 ---
 
+## Disponível online
+__[Ver aplicação online](https://matheusmpessoa.github.io/teste-agenciaManga/)__
+
 ## Linguagens utilizadas
 * HTML5
 * CSS3
@@ -27,3 +30,9 @@ Desenvolver a página utilizando as tecnologias HTML5 e CSS3 com base no Layout 
 ## Frameworks utilizados
 * Bootstrap 3
 * AngularJS
+
+## Tamanho do projeto
+10 MB
+
+## Tempo de desenvolvimento
+2 dias
